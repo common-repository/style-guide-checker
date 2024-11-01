@@ -1,0 +1,32 @@
+x-sentence                       { display: inline; }
+.cs--check                       { border-bottom: 1px solid #fdf0c0; box-shadow: inset 0 -1px 0 #fdf0c0; }
+.cs--check.cs_sexist_roles       { border-bottom: 1px solid #8dd3c7; box-shadow: inset 0 -1px 0 #8dd3c7; }
+.cs--check.cs_words_capitalize   { border-bottom: 1px solid #efefa3; box-shadow: inset 0 -1px 0 #efefa3; }
+.cs--check.cs_negativewords      { border-bottom: 1px solid #fb8072; box-shadow: inset 0 -1px 0 #fb8072; }
+.cs--check.cs_redundancies       { border-bottom: 1px solid #80b1d3; box-shadow: inset 0 -1px 0 #80b1d3; }
+.cs--check.cs_contractions       { border-bottom: 1px solid #fdb462; box-shadow: inset 0 -1px 0 #fdb462; }
+.cs--check.cs_uncomparables      { border-bottom: 1px solid #b3de69; box-shadow: inset 0 -1px 0 #b3de69; }
+.cs--check.cs_weakwords          { border-bottom: 1px solid #fccde5; box-shadow: inset 0 -1px 0 #fccde5; }
+.cs--check.cs_words_preferred    { border-bottom: 1px solid #d9d9d9; box-shadow: inset 0 -1px 0 #d9d9d9; }
+.cs--check.cs_date_format        { border-bottom: 1px solid #aebafa; box-shadow: inset 0 -1px 0 #aebafa; }
+.cs--check.cs_vaguepronounstart  { border-bottom: 1px solid #ccebc5; box-shadow: inset 0 -1px 0 #ccebc5; }
+.cs--check.cs_passive            { border-bottom: 1px solid #ffed6f; box-shadow: inset 0 -1px 0 #ffed6f; }
+.cs--check.cs_adverbs            { border-bottom: 1px solid #a6cee3; box-shadow: inset 0 -1px 0 #a6cee3; }
+.cs--check.cs_words_blacklist    { border-bottom: 1px solid #52abe7; box-shadow: inset 0 -1px 0 #52abe7; }
+.cs--check.cs_multiplespaces     { border-bottom: 1px solid #b2df8a; box-shadow: inset 0 -1px 0 #b2df8a; }
+.cs--check.cs_serialcomma        { border-bottom: 1px solid #66d35f; box-shadow: inset 0 -1px 0 #66d35f; }
+.cs--check.cs_concisenegatives   { border-bottom: 1px solid #fb9a99; box-shadow: inset 0 -1px 0 #fb9a99; }
+.cs--check.cs_doublenegatives    { border-bottom: 1px solid #ff6769; box-shadow: inset 0 -1px 0 #ff6769; }
+.cs--check.cs_offensive          { border-bottom: 1px solid #fdbf6f; box-shadow: inset 0 -1px 0 #fdbf6f; }
+.cs--check.cs_archaic            { border-bottom: 1px solid #ffb233; box-shadow: inset 0 -1px 0 #ffb233; }
+.cs--check.cs_empty_phrases      { border-bottom: 1px solid #cab2d6; box-shadow: inset 0 -1px 0 #cab2d6; }
+.cs--check.cs_diacritics         { border-bottom: 1px solid #e9bcff; box-shadow: inset 0 -1px 0 #e9bcff; }
+.cs--check.cs_idioms             { border-bottom: 1px solid #f5f595; box-shadow: inset 0 -1px 0 #f5f595; }
+.cs--check.cs_jargon             { border-bottom: 1px solid #e595e5; box-shadow: inset 0 -1px 0 #e595e5; }
+.cs--check.cs_misused            { border-bottom: 1px solid #e48c5b; box-shadow: inset 0 -1px 0 #e48c5b; }
+.cs--check.cs_end_of_sentence    { border-bottom: 1px solid #5b8ce4; box-shadow: inset 0 -1px 0 #5b8ce4; }
+.cs--check.cs_correct_characters { border-bottom: 1px solid #bcefe9; box-shadow: inset 0 -1px 0 #bcefe9; }
+.cs--check.cs_ampersand          { border-bottom: 1px solid #d35f66; box-shadow: inset 0 -1px 0 #d35f66; }
+.cs--check.cs_rawlink            { border-bottom: 1px solid #5fd366; box-shadow: inset 0 -1px 0 #5fd366; }
+.cs--check.cs_splitinfinitives   { border-bottom: 1px solid #b263ef; box-shadow: inset 0 -1px 0 #b263ef; }
+.cs--check.cs_sentencelength     { border-bottom: none; box-shadow: none; background: #fbe8e8 }

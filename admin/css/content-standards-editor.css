@@ -1,0 +1,49 @@
+#cs--duplicate-content {
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    color: rgba(0,0,0,0) !important;
+    top: 0;
+    left: 0;
+}
+
+#cs--duplicate-content * {
+    color: rgba(0,0,0,0) !important;
+}
+
+#cs--duplicate-content:not(.userPreferenceHidden) {
+    display: block !important;
+}
+
+#cs--duplicate-content img {
+    visibility: hidden !important;
+}
+
+#cs--duplicate-content table {
+    border-color: transparent !important;
+}
+
+.cs--check.cs--highlight {
+    -webkit-animation-name: hvr-pulse-grow;
+    animation-name: hvr-pulse-grow;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 4;
+    animation-iteration-count: 4;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+.cs--check.cs--highlight .cs--check {
+    background: transparent;
+}
+
+@-webkit-keyframes hvr-pulse-grow {
+    to { opacity: 0; background: #000000; }
+}
+
+@keyframes hvr-pulse-grow {
+    to { opacity: 0; background: #000000; }
+}
